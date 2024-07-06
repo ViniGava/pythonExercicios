@@ -7,4 +7,4 @@ else:
     salarioat = (salario + (salario * 0.15))
     aumento = 15
 
-print('O salário do funcionário passará de R${:.2f} para R${:.2f} com o aumento de {}%'.format(salario, salarioat, aumento))
+print('O salário do funcionário passará de \033[1;31mR${:.2f}\033[m para \033[1;32mR${:.2f}\033[m com o aumento de \033[1;32m{}%\033[m'.format(salario, salarioat, aumento))
