@@ -1,3 +1,5 @@
+"""Desenvolva um programa que faça a tabuada de um número recebido no teclado"""
+
 print('\033[1;31m-=-\033[m'*30)
 num = int(input('Digite um número para ver sua tabuada: '))
 print('\033[1;31m=\033[m'*15)

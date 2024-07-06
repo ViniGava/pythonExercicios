@@ -1,3 +1,5 @@
+"""Desenvolva um programa que recebe um texto do teclado, e apresente alguma informações sobre esse texto"""
+
 print('\033[1;31m-=-\033[m'*20)
 algo = input('Digite algo: ')
 

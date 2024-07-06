@@ -1,3 +1,6 @@
+"""Desenvolva um programa onde recebe o ano de nascimento de um atleta e informe qual a categoria dele baseado na sua
+idade"""
+
 from datetime import date
 
 print('\033[1;31m-=-\033[m'*30)

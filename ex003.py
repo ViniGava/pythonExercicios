@@ -1,3 +1,5 @@
+"""Desenvolva um programa que recebe 2 números inteiros e devolve a soma deles"""
+
 print('\033[1;31m-=-\033[m'*20)
 n1 = int(input('Número 1: '))
 n2 = int(input('Número 2: '))

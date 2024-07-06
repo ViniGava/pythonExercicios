@@ -1,3 +1,6 @@
+"""Desenvolva um programa que calcula a nota média de um aluno e informe se ele passou de ano, ficou de recuperação ou
+reprovou"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('NOTAS DO ALUNO')
 print('\033[1;31m-=-\033[m'*30)

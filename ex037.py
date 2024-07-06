@@ -1,3 +1,5 @@
+"""Desenvolva um programa que faça uma conversão de números decimais para binários, octais e hexadecimais"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('PROGRAMA DE CONVERSÃO NÚMERICA')
 print('\033[1;31m-=-\033[m'*30)

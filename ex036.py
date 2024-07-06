@@ -1,3 +1,6 @@
+"""Desenvolva um programa que calcula a prestação de uma casa baseada na quantidade de anos e informe se o empréstimo
+será aprovado ou não tendo em base que a prestação não poderá passar de 30% do salário mensal do comprador"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('                       Empréstimo Bancário')
 print('\033[1;31m-=-\033[m'*30)

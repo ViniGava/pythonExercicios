@@ -1,3 +1,5 @@
+"""Desenvolva um programa que calcule o IMC de uma pessoa"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('ÍNDICE DE MASSA CORPORAL')
 print('\033[1;31m-=-\033[m'*30)

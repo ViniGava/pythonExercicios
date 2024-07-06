@@ -1,3 +1,5 @@
+"""Desenvolva uma programa que informe o desconto ou a taxa de juros que será pago dependendo da sua forma de pagamento"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('GERENCIADOR DE PAGAMENTOS')
 print('\033[1;31m-=-\033[m'*30)

@@ -1,3 +1,6 @@
+"""Desenvolva um programa que recebe 3 segmentos de reta e informe se é possível formar um triãngulo e informe tbm
+o tipo de triângulo que seria formado, equilátero, isósceles ou escaleno"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('TIPO DE TRIÂNGULO')
 print('\033[1;31m-=-\033[m'*30)

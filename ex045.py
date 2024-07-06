@@ -1,3 +1,5 @@
+"""Desenvolva um jogo de pedra, papel e tesoura, onde o usuário disputará com o computador"""
+
 from random import randint
 from time import sleep
 

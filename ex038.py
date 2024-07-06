@@ -1,3 +1,5 @@
+"""Desenvolva um programa que recebe 2 números e faça uma comparação indicando qual o maior ou se os 2 são iguais"""
+
 print('\033[1;31m-=-\033[m'*30)
 print('COMPARAÇÃO ENTRE DOIS NÚMEROS')
 print('\033[1;31m-=-\033[m'*30)
