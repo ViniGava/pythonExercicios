@@ -12,16 +12,17 @@ anoatual = date.today().year
 anonasc = int(input('Digite o ano de nascimento do atleta: '))
 idade = anoatual - anonasc
 
-if 20 < idade:
+if idade > 25:
     categoria = 'MASTER'
-elif 20 <= idade > 19:
+elif idade >= 19:
     categoria = 'SÊNIOR'
-elif 14 < idade <= 19:
+elif idade >= 14:
     categoria = 'JUNIOR'
-elif 9 < idade <= 14:
+elif idade >= 9:
     categoria = 'INFANTIL'
 else:
     categoria = 'MIRIM'
 
+print('A idade do atleta é {} anos!'.format(idade))
 print('A CATEGORIA DO ATLETA SERÁ \033[1;32m{}\033[m!'.format(categoria))
 print('\033[1;31m-=-\033[m'*30)

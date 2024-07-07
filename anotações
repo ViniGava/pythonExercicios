@@ -86,7 +86,7 @@
   split() -----------> Vai ocorrer uma divisão entre os espaços da frase ----- frase.split()
 
   =================== JUNÇÃO ==================
-  .join() -----------> Juntar uma coisa c.om a outra ------------------------- '-'.join(frase) = Estou-aprendendo-a-programar-em-python
+  .join() -----------> Juntar uma coisa com a outra ------------------------- '-'.join(frase) = Estou-aprendendo-a-programar-em-python
 
 -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
 

@@ -21,7 +21,7 @@ elif idade > 18:
 else:
     tempo = 18 - idade
     if tempo == 1:
-        print('\033[1;32mESTÁ QUASE NA HORA SOLDADO, ANO QUE VEM VOCÊ SE ALISTA\033[m')
+        print('\033[1;32mESTÁ QUASE NA HORA SOLDADO, ANO QUE VEM VOCÊ DEVE SE ALISTAR\033[m')
     else:
         print('\033[1;32mAinda faltam {} anos para você se alistar!!!\033[m'.format(tempo))
 print('\033[1;31m-=-\033[m' * 30)
