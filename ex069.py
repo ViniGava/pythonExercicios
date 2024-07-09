@@ -16,7 +16,6 @@ while True:
         if (sexo == 'F') or (sexo == 'M'):
             break
 
-
     if idade >= 18:
         idadetot += 1
 
