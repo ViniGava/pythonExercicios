@@ -1,8 +1,6 @@
 """Refaça o desafio 51 (Desenvolva um programa que leia o primeiro termo e a razão de uma progressão
  aritmética, no final mostre os 10 termos dessa progressão) usando while"""
 
-
-
 print('\033[1;31m-=-\033[m'*30)
 print('PROGRESSÃO ARITMÉTICA')
 print('\033[1;31m-=-\033[m'*30)

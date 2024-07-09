@@ -13,15 +13,19 @@ razao = int(input('Digite a razão a ser seguida: '))
 r = 1
 c = 1
 termofim = 11
-
+soma = 10
 while r != 0:
     while c < termofim:
        print(termo, end=' -> ')
        c += 1
        termo += razao
+    print('Pausa')
     r = int(input('\nDeseja ver mais quantos termos? [0] PARA SAIR: '))
     if r > 0:
         termofim = r + 1
         c = 1
-print('Acabou')
+    soma += r
+
+print('\033[1;31m-=-\033[m'*30)
+print('\nA quantidade de termos mostrado foi de: {}.\n'.format(soma))
 print('\033[1;31m-=-\033[m'*30)

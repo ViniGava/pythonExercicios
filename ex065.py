@@ -27,7 +27,7 @@ while r != 'n':
 
 media = soma / cont
 
-print('\033[1;32mA quantidade de números somados é de: {} e a média entre ele foi de: {}\033[m'.format(cont, media))
+print('\033[1;32mA quantidade de números somados foi de: {} e a média entre ele é: {}\033[m'.format(cont, media))
 print('\033[1;33mO maior número digitado foi {}, e o menor foi {}!\033[m'.format(nummaior, nummenor))
 
 print('\033[1;31m-=-\033[m'*30)

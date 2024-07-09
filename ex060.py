@@ -11,8 +11,6 @@ num = int(input('Digite um número para saber seu fatorial: '))
 print('O fatorial de {}! é : {}'.format(num, factorial(num)))'''
 
 '''RESOLVENDO COM WHILE
-soma = 1
-atual = 0
 num = int(input('Digite um número para saber seu fatorial: '))
 numf = num - 1
 nums = num
@@ -30,4 +28,4 @@ nums = num
 for c in range(num, 1, -1):
     nums = nums * numf
     numf -= 1
-print('O fatorial de {}! é : {}'.format(num, nums))
+print('Calculando {}! = {}'.format(num, nums))
