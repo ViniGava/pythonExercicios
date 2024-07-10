@@ -1,12 +1,12 @@
 """Crie um programa que simule o funcionamento de um caixa eletronico tendo cédula de 50,20,10 e 1 reais"""
 
-print('\033[1;31m-=-\033[m' * 30)
-print('CAIXA ELETRÔNICO')
-print('\033[1;31m-=-\033[m' * 30)
+print('\033[1;31m=\033[m' * 40)
+print(f'{'CAIXA ELETRÔNICO':^40}')
+print('\033[1;31m=\033[m' * 40)
 
 notas50 = notas20 = notas10 = notas1 = 0
 
-valor = int(input('Digite o valor a ser sacado: '))
+valor = int(input('Digite o valor a ser sacado: R$'))
 while True:
     while valor >= 50:
         notas50 += 1

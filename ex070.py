@@ -1,11 +1,11 @@
-"""Crie um programa que leia nome e preço de vários produtos, no final mostre total gasto, qauntos custam mais de
+"""Crie um programa que leia nome e preço de vários produtos, no final mostre total gasto, quantos custam mais de
 R$1000 e o nome do produto mais barato"""
 
 print('\033[1;31m-=-\033[m' * 30)
-print('CARRINHO DE COMPRAS')
+print(f'{'CARRINHO DE COMPRAS':^90}')
 print('\033[1;31m-=-\033[m' * 30)
 
-soma = totacima = maisbarato = maisbaratoval = 0
+soma = totacima = maisbaratoval = 0
 
 while True:
     nome = str(input('Nome do produto: ')).strip()
