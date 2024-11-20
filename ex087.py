@@ -23,7 +23,7 @@ print('\033[1;31m=\033[m' * 40)
 
 for linha in range(0,3):
   for col in range(0,3):
-    print(f'[ {matriz[linha][col]} ]',end='')
+    print(f'[ {matriz[linha][col]:^5} ]',end='')
   print('\n')
 
 print('\033[1;31m=\033[m' * 40)

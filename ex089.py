@@ -44,7 +44,7 @@ while True:
   print(f'Notas de {alunos[resp1][0]} sao {alunos[resp1][1][0:2]}')
   print('\033[1;31m-\033[m' * 60)
 
-print('''Finalizando Programa
+print('''Finalizando Programa...
 <<< VOLTE SEMPRE >>>''')
 
 print('\033[1;31m=\033[m' * 60)
